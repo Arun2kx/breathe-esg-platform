@@ -2,7 +2,6 @@
 
 A prototype ESG data ingestion and analyst review platform. Handles SAP fuel/procurement exports, utility electricity data, and corporate travel data. Built with Django REST Framework + React + Vite.
 
-> This is a 4-day internship assignment prototype. The code is written to be readable and defensible, not production-complete.
 
 ---
 ## Screenshots
