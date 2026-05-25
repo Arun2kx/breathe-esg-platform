@@ -5,6 +5,16 @@ A prototype ESG data ingestion and analyst review platform. Handles SAP fuel/pro
 > This is a 4-day internship assignment prototype. The code is written to be readable and defensible, not production-complete.
 
 ---
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Review Records
+![Review](screenshots/review.png)
+
+### Audit Logs
+![Audit](screenshots/audit.png)
 
 ## What it does
 
