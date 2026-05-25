@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-50 text-surface-800 font-sans antialiased;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+@layer components {
+  /* Status badges */
+  .badge-pending {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium bg-amber-50 text-amber-700 border border-amber-200;
+  }
+  .badge-approved {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium bg-esg-50 text-esg-700 border border-esg-200;
+  }
+  .badge-rejected {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium bg-red-50 text-red-700 border border-red-200;
+  }
+  .badge-suspicious {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs font-medium bg-orange-50 text-orange-700 border border-orange-200;
+  }
+  .badge-source-sap {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200;
+  }
+  .badge-source-utility {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-purple-50 text-purple-700 border border-purple-200;
+  }
+  .badge-source-travel {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-sky-50 text-sky-700 border border-sky-200;
+  }
+
+  /* Card */
+  .card {
+    @apply bg-white rounded-lg border border-surface-200 shadow-sm;
+  }
+
+  /* Table */
+  .data-table {
+    @apply w-full text-sm;
+  }
+  .data-table thead tr {
+    @apply border-b border-surface-200;
+  }
+  .data-table thead th {
+    @apply px-3 py-2.5 text-left text-xs font-semibold text-surface-500 uppercase tracking-wide;
+  }
+  .data-table tbody tr {
+    @apply border-b border-surface-100 hover:bg-surface-50 transition-colors;
+  }
+  .data-table tbody td {
+    @apply px-3 py-2.5 text-surface-700;
+  }
+  .data-table tbody tr.suspicious {
+    @apply bg-orange-50/40;
+  }
+
+  /* Button */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-esg-600 text-white text-sm font-medium rounded-md
+           hover:bg-esg-700 active:bg-esg-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-4 py-2 bg-white text-surface-700 text-sm font-medium rounded-md
+           border border-surface-300 hover:bg-surface-50 active:bg-surface-100 transition-colors disabled:opacity-50;
+  }
+  .btn-danger {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 bg-red-50 text-red-700 text-sm font-medium rounded-md
+           border border-red-200 hover:bg-red-100 transition-colors disabled:opacity-50;
+  }
+  .btn-approve {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 bg-esg-50 text-esg-700 text-sm font-medium rounded-md
+           border border-esg-200 hover:bg-esg-100 transition-colors disabled:opacity-50;
+  }
+}
