@@ -9,6 +9,8 @@ A prototype ESG data ingestion and analyst review platform. Handles SAP fuel/pro
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
+### Upload Data
+![Upload](screenshots/upload.png)
 
 ### Review Records
 ![Review](screenshots/review.png)
