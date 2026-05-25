@@ -8,16 +8,16 @@ A prototype ESG data ingestion and analyst review platform. Handles SAP fuel/pro
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
+
 ### Upload Data
-![Upload](screenshots/upload.png)
+![Upload](upload.png)
 
 ### Review Records
-![Review](screenshots/review.png)
+![Review](review.png)
 
 ### Audit Logs
-![Audit](screenshots/audit.png)
-
+![Audit](audit.png)
 ## What it does
 
 1. **Ingests** CSV files from three enterprise sources (SAP, utility portals, Concur/Navan)
