@@ -171,3 +171,11 @@ Three realistic CSVs are provided in `sample_data/`. Each includes intentionally
 | Realistic source handling (20%) | `utils/normalizers.py`, `*_ingestor.py`, `SOURCES.md` |
 | Analyst UX (10%) | `frontend/src/pages/ReviewPage.jsx` |
 | What you chose not to build (10%) | `TRADEOFFS.md` |
+
+---
+
+## Author
+
+**Arun Banoth**  
+B.Tech in Computer Science & Engineering  
+National Institute of Technology Patna
